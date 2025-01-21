@@ -194,7 +194,10 @@ h3{
        }           /*  bannerone part */
        .container-one{
         flex-direction: column-reverse;
-        margin-top: 830px;
+        margin-top: 700px;
+        margin: 1px solid;
+        
+        
         
         
         
@@ -202,7 +205,13 @@ h3{
          .containerone-content{
             text-align: center;
             margin: 100%;
+         } 
+         .containerone-img img{
+            margin-bottom: 0;
+            height: 413px;
+            width: 336px;
          }
+           
        
        
     } 
