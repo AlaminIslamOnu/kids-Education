@@ -16,7 +16,7 @@
   } 
 /* shared style */
 .btn{
-    height: 50px;
+      height: 50px;
       width: 192px;
       border-radius: 12px;
       background: #FEA301;
@@ -25,6 +25,34 @@
       font-size: 1.25rem;
       font-weight: 400;
 }
+.btn2{
+    height: 50px;
+      width: 192px;
+      border-radius: 12px;
+      background: black;
+      color: white;
+      border: none;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 24px;
+}
+/* common color */
+.orange{
+    color: #FEA301;
+}
+.sky-blue{
+    color: #01ACFD;
+}
+.sky-light{
+    color: #05D4DF;
+}
+.blue{
+    color: #5D58EF;
+}
+
+
+
+
 .primary-title{
     font-size: 2.8rem;
     font-weight: bold;
@@ -47,7 +75,7 @@
     
 }
 .nav2 p a{
-    color: #FEA301;
+   
     font-size: 1.25rem;
     font-weight: bold;
     
@@ -73,7 +101,73 @@ h3{
   /*  ganjam */
   .nav3 i{
     display: none;
-  }
+  }                                      
+                      /*       banner one part */
+                      .container-one{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 35.9rem;
+                        margin: 0 140px;
+                        
+                      
+                      }
+                      .containerone-content h2{
+                         font-size: 3.5rem;
+                         font-weight: bold;
+                         margin-bottom: 24px;
+                         
+                      } .containerone-content{
+                        
+                        margin: 120px 50px 120px 0;
+                      }
+
+                      .pera{
+                        font-size: 20px;
+                        color: #000000;
+                        
+                      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -91,16 +185,24 @@ h3{
         padding: 20px;
         border-bottom: 1px solid #FEA301;
         
-        
-        
-        
-       } .nav1 img{
+        } .nav1 img{
         margin-left: 0;
         gap: none;
        }
        .nav3 i{
         display: block;
-       }
+       }           /*  bannerone part */
+       .container-one{
+        flex-direction: column-reverse;
+        margin-top: 830px;
+        
+        
+        
+       } 
+         .containerone-content{
+            text-align: center;
+            margin: 100%;
+         }
        
-    
-  } 
+       
+    } 
