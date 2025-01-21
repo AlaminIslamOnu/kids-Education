@@ -66,8 +66,41 @@ h3{
 
 .navbar-container{
     margin: 20px 140px;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+  /*  ganjam */
+  .nav3 i{
+    display: none;
+  }
+
+
+
+  @media screen and (max-width:576px) {
+       .nav3 .btn{
+        display: none;
+        
+       }
+       .nav1 h3 , .nav2 {display: none;
+
+       }
+       .navbar-container {
+        display: flex;
+        margin: auto;
+        padding: 20px;
+        border-bottom: 1px solid #FEA301;
+        
+        
+        
+        
+       } .nav1 img{
+        margin-left: 0;
+        gap: none;
+       }
+       .nav3 i{
+        display: block;
+       }
+       
+    
+  } 
