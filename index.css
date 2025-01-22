@@ -143,17 +143,33 @@ h3{
                       }
 
                     /*   2ndbanner start */
+                    .box1 , .box2 , .box3{
+                        height: 100%;
+                       
+                        height: 476px;
+                        width: 367px;
+                        border-radius: 18px;
+                        border: none;
+                        box-shadow: 2px 2px 1px gray;
+                    } 
+                    .box1-img, .box2-img, .box3-img{
+                        margin-top: 90px;
+                    }
+
+
                     .containertwo{
-                        border: 1px solid;
+                        border: 1px solid pink;
                         height: 879px;
                         width: 100%;
                         text-align: center;
                         
+                        
                         }
                         .box-container{
                             margin: 80px 240px 80px 240px;
-                            border: 1px solid;
+                            
                             gap: 28px;
+                            display: flex;
                            
                         }
                 .box-container{
@@ -167,19 +183,8 @@ h3{
                  .box1 a, .box2 a, .box3 a {
                     text-decoration: none;
                 } 
-                .box1 , .box2 , .box3 {
-                    height: 476px;
-                    width: 367px;
-                    border: 1px solid;
-                    border-radius: 18px;
-                    display: grid;
-                    gap: 10px;
-                    
-                   }
-                   .box1 img, .box2 img , .box3 img{
-                    text-align: center;
-                   }
-    .box1 {background: linear-gradient( to top,rgba(253, 248, 248, 0),rgb(240, 250, 255));
+                
+    .box1{background: linear-gradient( to top,rgba(253, 248, 248, 0),rgb(240, 250, 255));
        }
     .box2{
         background: linear-gradient( to top,rgba(226, 223, 223, 0),rgb(245, 232, 204));
@@ -261,6 +266,9 @@ h3{
         } 
         .last-banner{
             text-align: center;
+        }
+        .hide{
+            display: none;
         }
         
     
