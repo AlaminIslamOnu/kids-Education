@@ -38,6 +38,7 @@
 }
 .bg-image{
     background-image: url("./assets/bg.png");
+    background-size: cover;
 }
 /* common color */
 .orange{
@@ -52,16 +53,7 @@
 .blue{
     color: #5D58EF;
 }
-/* liner gradient */
-#lin-gra-sky{
-    background: linear-gradient(rgba(222, 245, 255, 1));
-}
-#lin-gra-yellow{
-    background: linear-gradient(rgba(255, 244, 220, 1));
-}
-#lin-gra-blue{
-    background: linear-gradient(rgba(242, 232, 255, 1));
-}
+
 
 
 .box-title{
@@ -159,16 +151,19 @@ h3{
                         
                         }
                         .box-container{
-                            margin: 80px 240px 200px 240px;
+                            margin: 80px 240px 80px 240px;
                             border: 1px solid;
                             gap: 28px;
+                           
                         }
                 .box-container{
                     display: flex;
                     place-items: center;
                     align-items: center;
                     text-align: center;
+                   
                 }
+                
                  .box1 a, .box2 a, .box3 a {
                     text-decoration: none;
                 } 
@@ -179,10 +174,102 @@ h3{
                     border-radius: 18px;
                     display: grid;
                     gap: 10px;
+                    
                    }
                    .box1 img, .box2 img , .box3 img{
                     text-align: center;
                    }
+    .box1 {background: linear-gradient( to top,rgba(253, 248, 248, 0),rgb(240, 250, 255));
+       }
+    .box2{
+        background: linear-gradient( to top,rgba(226, 223, 223, 0),rgb(245, 232, 204));
+     }    
+     .box3{
+        background: linear-gradient( to top,rgba(226, 223, 223, 0),rgb(242, 232, 255, 1));
+     } 
+
+     .icon2{
+        margin-top: 0;
+     }
+                                    /*  last banner  */
+
+     /*  button design    */     
+     .common-btn {
+        font-size: 15px;
+        font-weight: 500;
+       height: 38px;
+       width: 174px;
+       background-color: #95B226;  
+       color: white;
+       border-radius: 47px;
+       border: none;
+       position: relative;
+       top:-23px;
+       left:20px
+     }    
+     .btn3{
+       font-size: 15px;
+       font-weight: 500;
+       height: 38px;
+       width: 174px;
+       background-color: #3CD8E8;  
+       color: white;
+       border-radius: 47px;
+       border: none;
+       position: relative;
+       top:-23px;
+       left: 15px;
+      
+     }   
+     .btn4{
+        font-size: 15px;
+        font-weight: 500;
+       height: 38px;
+       width: 174px;
+       background-color: #5D58F0;  
+       color: white;
+       border-radius: 47px;
+       border: none;
+       position: relative;
+       top:-23px;
+       left:20px
+
+     }  .mainstory-container{
+        
+        
+        margin-right: 20px;
+     }
+
+     .story-container{
+        
+        
+        margin: 80px 140px 90px 140px;
+       
+        display:flex;
+       
+        
+        } 
+        
+        .laststory-container{
+            
+            
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(2,1fr);
+        
+
+        } 
+        .last-banner{
+            text-align: center;
+        }
+        
+    
+    
+            
+      
+         
+                
+              
 
 
 
