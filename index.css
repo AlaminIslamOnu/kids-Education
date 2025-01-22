@@ -44,6 +44,10 @@
     background-color: rgb(250, 244, 232);
 }
 
+.font-color{
+    color: white;
+}
+
 /* common color */
 .orange{
     color: #FEA301;
@@ -298,6 +302,56 @@ h3{
         .last-banner{
             text-align: center;
         }
+        /*  footer part  */
+        .last-part{
+            border: 1px solid #01ACFD;
+            height: 519px;
+            width: auto;
+            background-color: #01ACFD;
+        }
+        
+        .last-part-container{
+            margin: 123px 228px 174px 140px;
+            border: 1px solid #01ACFD;
+            display: flex;
+            justify-content: space-around;
+            gap: 30px;
+        }
+         .part1 img , h3 {
+            display: inline-block;
+        } 
+        .title{
+            font-size: 2.634rem;
+            font-weight: bold;
+        }
+        .part2 a{
+            color: white;
+        }
+        
+        .part1 p{
+            margin-top: 20px;
+        }
+        
+        .part2 p{
+            margin-bottom: 20px;
+           
+        }
+        .part2 h2{ margin-bottom: 30px;
+            
+        }
+        .part2 a{
+            text-decoration: none;
+        }
+        
+        .part3 h2{
+            margin-bottom: 20px;
+           
+        
+        } 
+          /*  footer edit  */
+          footer{margin-top: 10px;
+
+          }
         
     
     
@@ -421,6 +475,34 @@ h3{
                     }
                      .btn2 {
                         display: inline;
+                    }
+
+                    /* footer part */
+                    .last-part-container{
+                        margin: auto;
+                        width: auto;
+                        flex-direction: column;
+                    }
+                    .part1, .part2, .part3{
+                        width: auto;
+                        margin: auto;
+                    }
+
+                    .part1 p{
+                        margin-top: 0;
+                    }
+                    
+                    .part2 p{
+                        margin-bottom: 0;
+                       
+                    }
+                    .part2 h2{ margin-bottom:0;
+                        
+                    } footer{
+                        margin: 0;
+                    }
+                    .last-banner > h2{
+                        display: none;
                     }
 
                     
